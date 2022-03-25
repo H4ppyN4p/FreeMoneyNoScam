@@ -34,6 +34,7 @@ public class DBServiceCode
             System.out.println("Shit pommes frit, min DB connection virker ikke!!!!!!!!!**************");
         }
 
+        //
         //Display the URL and connection information
         System.out.println("URL: " + DB_URL);
         System.out.println("Vi har en connection. Jubiii!!!!!");
