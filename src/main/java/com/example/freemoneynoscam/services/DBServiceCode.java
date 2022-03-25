@@ -21,7 +21,7 @@ public class DBServiceCode
 
     static final String DB_URL = "jdbc:mysql://localhost:3306/free_money_no_scam";
     static final String USER = "root";
-    static final String PASS = "@t9285Fj9";
+    static final String PASS = "PASSWORD";
 
     public void onRunConnectToDB(){
 
