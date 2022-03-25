@@ -16,11 +16,12 @@ class ValidateEmailServiceTest {
         //Act
         boolean result1 = service.isEmailValid(emailValid);
         boolean result2 = service.isEmailValid(emailInvalid);
+        boolean result3 = service.isEmailValid(isThisValid);
 
         //Assert
         assertEquals(true,result1);
         assertEquals(false,result2);
-        assertEquals(true,isThisValid);
+        assertEquals(false,result3);
     }
 
 }
